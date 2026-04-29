@@ -35,8 +35,8 @@ main{
     width: 1300px;
     height: 1300px;
     position: absolute;
-    top: 480px;
-    left: 13%;
+    top: 400px;
+    left: 10%;
 }
 
 .title > .firstline{
@@ -112,7 +112,7 @@ main{
 
 footer > img{
     width: 140px;
-    margin-top: 140px;
+    margin-top: 70px;
 }
 
 .star{
