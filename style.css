@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
+    overflow: hidden;
 }
 
 body{
     width: 100%;
     margin: 0;
     overflow: hidden;
-  height: 90vh;
+  height: 100vh;
     margin-top: 90px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
@@ -31,11 +32,11 @@ main{
 
 .bg-gradient{
     z-index: -1;
-    width: 1000px;
-    height: 1000px;
+    width: 1300px;
+    height: 1300px;
     position: absolute;
-    top: 390px;
-    left: 18%;
+    top: 480px;
+    left: 13%;
 }
 
 .title > .firstline{
@@ -111,20 +112,91 @@ main{
 
 footer > img{
     width: 140px;
-    margin-top: 80px;
+    margin-top: 140px;
 }
 
 .star{
     position: absolute;
-    top: 26%;
-    left: 73.3%;
+    top: 23%;
+    left: 71%;
     width: 21px;
     height: 21px;
 }
 .star-y {
     position: absolute;
-    top: 26%;
+    top: 23%;
     left: 51.9%;
     width: 21px;
     height: 21px;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        margin-top: 40px;
+    }
+    .logo1{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .title .firstline{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .title > .secondline{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .star{
+        width: 18px;
+        height: 18px;
+        top: 20%;
+        left: 85%;
+    }
+    .star-y{
+        width: 18px;
+        height: 18px;
+        top: 20%;
+        left: 52%;
+    }
+
+    .description{
+        width: 90%;
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    #services{
+        margin-top: 30px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .service{
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #social-links{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .social-logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    footer > img{
+        width: 100px;
+        margin-top: 30px;
+    }
+    .bg-gradient{
+        width: 700px;
+        height: 700px;
+        top: 500px;
+        left: -34%;
+    }
 }
